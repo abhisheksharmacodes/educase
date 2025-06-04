@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --primary-color:#6C25FF;
+  --primary-text-color:#252525;
+  --secondary-text-color:#707070;
+  
+  --heading-text-size:27px;
+  --secondary-text-size:17px;
+  
+}
+
+#root {
+  max-width: 355px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: Rubik, sans-serif;
+  color: #252525;
+}
+
+button {
+  color: white;
+  border-radius: 8px;
+  padding:11px 20px;
+  border: none;
+  cursor: pointer;
+  width:100%;
+  font-size:15px;
+  font-weight: semibold;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  color:#101010;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("./assets/fonts/Rubik-Regular.ttf") format("truetype");
+}
